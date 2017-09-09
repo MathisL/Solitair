@@ -19,7 +19,7 @@ board = numpy.array([[-1, -1, 1, 1, 1, -1, -1]
 
 labels = {-1:' ', 0:'\u00B7', 1:'x'}
 
-class SolitairBoard():
+class SolitaireBoard():
     
     def _getSymbolForValue(self, value):
         return labels[value]

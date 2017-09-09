@@ -4,11 +4,11 @@ Created on 09.09.2017
 @author: Mathis
 
 '''
-from de.mathis.SolitairBoard import SolitairBoard 
+from de.mathis.SolitaireBoard import SolitaireBoard 
 
 print('Hi! Welcome to this simple solitair game. Have fun and good luck! (press h for help, x to quit)')
 
-board = SolitairBoard()
+board = SolitaireBoard()
 board.printBoardAndIndices()
 
 
@@ -19,6 +19,7 @@ while(True):
     print('Enter your move (stone and target separated by space):')
     read = input()
     if read.startswith('x'):
+        print('Bye now!')
         break
     if read.startswith('h'):
         printHelp()
